@@ -107,6 +107,7 @@ namespace LAB06JULIORUIZ1284719 {
 			// 
 			// cbxParametro
 			// 
+			this->cbxParametro->BackColor = System::Drawing::Color::Orange;
 			this->cbxParametro->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->cbxParametro->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -130,6 +131,7 @@ namespace LAB06JULIORUIZ1284719 {
 			// 
 			// cbxMetodo
 			// 
+			this->cbxMetodo->BackColor = System::Drawing::Color::Orange;
 			this->cbxMetodo->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->cbxMetodo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -142,6 +144,7 @@ namespace LAB06JULIORUIZ1284719 {
 			// 
 			// btnOrdenar
 			// 
+			this->btnOrdenar->BackColor = System::Drawing::Color::MediumSeaGreen;
 			this->btnOrdenar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnOrdenar->Location = System::Drawing::Point(495, 351);
@@ -149,7 +152,7 @@ namespace LAB06JULIORUIZ1284719 {
 			this->btnOrdenar->Size = System::Drawing::Size(150, 48);
 			this->btnOrdenar->TabIndex = 5;
 			this->btnOrdenar->Text = L"Ordenar";
-			this->btnOrdenar->UseVisualStyleBackColor = true;
+			this->btnOrdenar->UseVisualStyleBackColor = false;
 			this->btnOrdenar->Click += gcnew System::EventHandler(this, &Pokedex::btnOrdenar_Click);
 			// 
 			// label2
