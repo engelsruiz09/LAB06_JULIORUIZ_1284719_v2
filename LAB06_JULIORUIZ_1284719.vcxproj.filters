@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Clases">
+      <UniqueIdentifier>{661e1b92-2878-4936-ba0d-63bf5212b7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Entidades">
+      <UniqueIdentifier>{463a51e0-85dd-47d8-b460-b7c7f24f1adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Entidades\Pokemon">
+      <UniqueIdentifier>{fd08bde6-bae2-49f5-9bf1-8cb90f077893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras">
+      <UniqueIdentifier>{00a026e6-33df-4a5e-8459-21710eab73b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Nodo">
+      <UniqueIdentifier>{f1ef78b2-5581-4e50-851a-75512881b31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Lista">
+      <UniqueIdentifier>{8d992838-4e32-46bb-bc88-510e476c9f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Datos">
+      <UniqueIdentifier>{b3614979-401a-4852-a1af-9dfb1d8b9d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Datos\CsvReader">
+      <UniqueIdentifier>{c49851d1-f669-4f0d-8f35-0d327a703114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Orden">
+      <UniqueIdentifier>{12100d86-a468-4642-a85d-161f9080e063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Formularios">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Clases\Dimension">
+      <UniqueIdentifier>{d178f8c0-501d-4249-85fc-3ee592c2de1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Dimension\StopWatch">
+      <UniqueIdentifier>{8e67efe1-c424-4831-9d40-b8629e34a980}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Clases\Entidades\Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodo.cpp">
+      <Filter>Clases\Estructuras\Nodo</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista.cpp">
+      <Filter>Clases\Estructuras\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvReader.cpp">
+      <Filter>Clases\Datos\CsvReader</Filter>
+    </ClCompile>
+    <ClCompile Include="Orden.cpp">
+      <Filter>Clases\Estructuras\Orden</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StopWatch.cpp">
+      <Filter>Clases\Dimension\StopWatch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Clases\Entidades\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Clases\Estructuras\Nodo</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Clases\Estructuras\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvReader.h">
+      <Filter>Clases\Datos\CsvReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Orden.h">
+      <Filter>Clases\Estructuras\Orden</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokedex.h">
+      <Filter>Formularios</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>Clases\Dimension\StopWatch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
