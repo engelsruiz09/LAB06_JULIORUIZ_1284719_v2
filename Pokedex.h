@@ -109,23 +109,23 @@ namespace LAB06JULIORUIZ1284719 {
 			// 
 			this->cbxParametro->BackColor = System::Drawing::Color::Orange;
 			this->cbxParametro->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
-			this->cbxParametro->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->cbxParametro->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->cbxParametro->FormattingEnabled = true;
 			this->cbxParametro->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Numero Nacional", L"Nombre", L"Generacion" });
 			this->cbxParametro->Location = System::Drawing::Point(482, 200);
 			this->cbxParametro->Name = L"cbxParametro";
-			this->cbxParametro->Size = System::Drawing::Size(186, 26);
+			this->cbxParametro->Size = System::Drawing::Size(186, 32);
 			this->cbxParametro->TabIndex = 2;
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->Location = System::Drawing::Point(446, 155);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(92, 18);
+			this->label1->Size = System::Drawing::Size(118, 24);
 			this->label1->TabIndex = 3;
 			this->label1->Text = L"Ordenar por:";
 			// 
@@ -133,13 +133,13 @@ namespace LAB06JULIORUIZ1284719 {
 			// 
 			this->cbxMetodo->BackColor = System::Drawing::Color::Orange;
 			this->cbxMetodo->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
-			this->cbxMetodo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->cbxMetodo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->cbxMetodo->FormattingEnabled = true;
 			this->cbxMetodo->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Selection Sort", L"Quick Sort", L"Shell Sort" });
 			this->cbxMetodo->Location = System::Drawing::Point(482, 305);
 			this->cbxMetodo->Name = L"cbxMetodo";
-			this->cbxMetodo->Size = System::Drawing::Size(186, 26);
+			this->cbxMetodo->Size = System::Drawing::Size(186, 32);
 			this->cbxMetodo->TabIndex = 4;
 			// 
 			// btnOrdenar
@@ -180,11 +180,11 @@ namespace LAB06JULIORUIZ1284719 {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 11.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label3->Location = System::Drawing::Point(428, 258);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(132, 18);
+			this->label3->Size = System::Drawing::Size(169, 24);
 			this->label3->TabIndex = 8;
 			this->label3->Text = L"Ordenamiento por:";
 			// 
